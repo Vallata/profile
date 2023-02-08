@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap');
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'DM Sans', sans-serif;
+  color : #575F7D;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1, h2 {
+  font-family: 'DM Serif Display', sans-serif;
+  color: #575F7D;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 20px;
+  margin: 20px 20px 20px 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+.title-green {
+  color: #7ECE90;
+  font-weight: bolder;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+  width: 1000px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card {
+  text-align: center;
+  margin: 30px;
+  padding: 5px 70px 5px 70px;
+  border-radius: 5px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+  background-color: white;
+}
+
+.img-circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+#cta {
+  display:block;
+  margin: 35px auto 15px auto;
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: fit-content;
+  color : #F0EEED;
+  background-color: #6B72E1;
+  text-decoration: none;
+}
+
+#cta:hover {
+  background-color: #575F7D;
+}
+
+.list-inline > li {
+  display: inline-block;
+  list-style: none;
+  border: 1px solid ;
+  border-radius:10%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.list-inline a {
+  color: grey;
+}
+
+.list-inline a :hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
